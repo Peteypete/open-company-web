@@ -70,7 +70,7 @@ div.slack-wrap {
         right: 0;
 
         @include tablet() {
-          border-bottom-left-radius: 100px; 
+          border-bottom-left-radius: 100px;
         }
 
         @media screen and (max-width: 440px) {
@@ -84,7 +84,7 @@ div.slack-wrap {
       }
 
       h1.slack-headline {
-        @include PTSerif()
+        @include PTSerif();
         font-size: 80px;
         line-height: 90px;
         color: $deep_navy;

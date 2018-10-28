@@ -41,7 +41,7 @@ div.slack-lander-wrap {
         z-index: 2;
 
         @include mobile() {
-          border-bottom-left-radius: 100px; 
+          border-bottom-left-radius: 100px;
         }
 
         @media screen and (max-width: 440px) {
@@ -51,7 +51,7 @@ div.slack-lander-wrap {
 
       h1.headline {
         font-size: 80px;
-        @include PTSerif()
+        @include PTSerif();
         color: $deep_navy;
         margin: 0 auto;
         z-index: 2;
@@ -106,7 +106,7 @@ div.slack-lander-wrap {
       border-radius: 8px;
 
       @include mobile() {
-        margin: 40px auto 0;        
+        margin: 40px auto 0;
       }
     }
 

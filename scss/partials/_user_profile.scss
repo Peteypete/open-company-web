@@ -1,4 +1,4 @@
-@import "vars/main";
+@import "../vars/main";
 
 div.user-profile {
   background-color: $carrot_modal_bg;
@@ -259,7 +259,7 @@ div.user-profile {
 
             i.mdi.mdi-information-outline {
               margin-left: 8px;
-              
+
               &:before {
                 font-size: 14px;
               }

@@ -207,7 +207,7 @@ section.testimonials-section {
   }
 
   div.testimonials-section-title {
-    @include PTSerif()
+    @include PTSerif();
     color: $deep_navy;
     font-size: 40px;
     line-height: 38px;
@@ -311,7 +311,7 @@ section.testimonials-section {
         div.testimonial-footer {
           div.testimonial-image {
             @include image-2x("/img/ML/testimonial_3_image");
-          } 
+          }
         }
       }
 
@@ -357,7 +357,7 @@ section.testimonials-section {
         }
 
         div.testimonial-name {
-          @include PTSerif()
+          @include PTSerif();
           font-size: 16px;
           color: $deep_navy;
           line-height: 20px;
@@ -415,7 +415,7 @@ section.keep-aligned {
   }
 
   div.keep-aligned-title {
-    @include PTSerif()
+    @include PTSerif();
     font-size: 32px;
     color: $deep_navy;
     margin-bottom: 40px;
@@ -512,7 +512,7 @@ section.home-keep-aligned {
           @include tablet() {
             padding: 24px 0;
           }
-        }  
+        }
       }
 
       &:nth-child(even) {
@@ -650,7 +650,7 @@ section.home-keep-aligned {
         }
 
         div.keep-aligned-section-copy-title {
-          @include PTSerif()
+          @include PTSerif();
           font-size: 80px;
           color: $deep_navy;
           line-height: 78px;

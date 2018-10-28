@@ -13,7 +13,7 @@ div.stream-attachments {
       cursor: pointer;
       height: 20px;
       margin-top: 12px;
-      @include avenir_H()
+      @include avenir_H();
       font-size: 12px;
       color: $deep_navy;
     }

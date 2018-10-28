@@ -21,10 +21,10 @@
                                     (when (:tif (:query-params @router/path))
                                       (utils/after 1500 #(.focus (sel1 [:input.try-it-form-central-input]))))
                                     s)
-                       :will-mount (fn [s]
-                                     (when (:confirm (:query-params @router/path))
-                                       (reset! (::confirm s) true))
-                                     s)}
+                        :will-mount (fn [s]
+                                      (when (:confirm (:query-params @router/path))
+                                        (reset! (::confirm s) true))
+                                      s)}
   [s]
   [:div
     (site-header)
